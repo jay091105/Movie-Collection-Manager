@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+.movie {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+}
+
+.genre, .rating, .release-year {
+    font-style: italic;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#searchResult, #highestRatedResult {
+    margin-top: 10px;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
